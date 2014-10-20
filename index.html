@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>One Perfect Shot</title>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather:400,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+</head>
+<body>
+  <div class="container clearfix">
+    <div class="gallery">
+      <h1>One <span class="perfect">perfect</span> Shot</h1>
+
+
+      <div class="full" id="full-img">
+          <!-- first image is viewable to start -->
+          <a class="fancybox">
+            <img class="preview-full" src="images/alien.jpg">
+          </a>
+      </div>
+
+      <div class="previews">
+          <a href="#" data-full="images/alien.jpg" data-height="315" data-title="<a href='http://www.imdb.com/title/tt0078748/' target='_blank'>ALIEN (1979)</a>" data-director="Ridley Scott" data-dp="Derek Vanlint"><img class="selected" src="images/alien-thumb.jpg"></a>
+          <a href="#" data-full="images/eternalsunshine.jpg" data-height="410" data-title="<a href='http://www.imdb.com/title/tt0338013/?ref_=nv_sr_1' target='_blank'>ETERNAL SUNSHINE OF THE SPOTLESS MIND (2004)</a>" data-director="Michel Gondry" data-dp="Ellen Kuras"><img src="images/eternalsunshine-thumb.jpg"></a>
+          <a href="#" data-full="images/treeoflife.jpg" data-height="390" data-title="<a href='http://www.imdb.com/title/tt0478304/?ref_=nv_sr_1' target='_blank'>TREE OF LIFE (2011)</a>" data-director="Terrence Malick" data-dp="Emmanuel Lubezki"><img src="images/treeoflife-thumb.jpg"></a>
+          <a href="#" data-full="images/jackiebrown.jpg" data-height="396" data-title="<a href='http://www.imdb.com/title/tt0119396/?ref_=nv_sr_1' target='_blank'>JACKIE BROWN (1997)</a>" data-director="Quentin Tarantino" data-dp="Guillermo Navarro"><img src="images/jackiebrown-thumb.jpg"></a>
+          <a href="#" data-full="images/starwars.jpg" data-height="311" data-title="<a href='http://www.imdb.com/title/tt0076759/?ref_=nv_sr_3' target='_blank'>STAR WARS: EPISODE IV &mdash; A NEW HOPE (1977)</a>" data-director="George Lucas" data-dp="Gilbert Taylor"><img src="images/starwars-thumb.jpg"></a>
+      </div>
+
+    </div>
+  </div>
+  <footer>
+    <p class="copy">
+      A jQuery gallery by <a href="http://rachelblm.com" target="_blank">Rachel Bloom</a> & <a href="http://mattfairley.com" target="_blank">Matt Fairley</a> &copy;2014. Inspired by Geoff Todd's <a href="http://twitter.com/oneperfectshot/" target="_blank">@OnePerfectShot</a>.
+    </p>
+  </footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="fancybox/jquery.fancybox.js?v=2.1.4"></script>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
